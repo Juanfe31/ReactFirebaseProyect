@@ -1,0 +1,149 @@
+.headerRegistrarReporte {
+  background-color: #34c374;
+  color: #47525e;
+  display: block;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.divFormReporte {
+  font-family: "Raleway", sans-serif;
+  position: relative;
+  margin: 10px auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.formReporte {
+  margin: 0 auto;
+  padding-bottom: 2vh;
+  font-size: 1.1rem;
+  font-family: "Raleway", sans-serif;
+  height: auto;
+  width: 100%;
+}
+
+.formReporte label {
+  font-size: 1.1rem;
+  font-family: "Raleway", sans-serif;
+}
+
+.divCedula {
+  text-align: center;
+
+  padding: 5px;
+}
+
+/* .formatoInput {
+  background-color: #ffffff;
+  border: 1px solid #8492a6;
+  border-radius: 100px;
+  text-align: center;
+} */
+
+.divTablaMateriales {
+  text-align: center;
+}
+
+.divTablaMateriales > input {
+  text-align: center;
+}
+
+.tablaMateriales {
+  width: 100%;
+  justify-content: center;
+}
+
+.botonReporte {
+  font-size: 1.1rem;
+  border-radius: 50px;
+  background-color: lightgreen;
+}
+
+
+@media (max-width: 400px) {
+  .divFormReporte {
+    width: 80%;
+  }
+
+  .formReporte {
+    font-size: 0.9rem;
+  }
+
+  .headerRegistrarReporte {
+    width: 100%;
+  }
+}
+
+@media (min-width: 767px) {
+  .view_phone {
+    display: none;
+    background-color: #34c374;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 580px) {
+  .divFormReporte {
+    width: 95%;
+  }
+  .formReporte {
+    font-size: 0.5rem;
+  }
+}
+
+@media (min-width: 581px) and (max-width: 888px) {
+  .divFormReporte {
+    width: 90%;
+  }
+  .formReporte {
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 889px) and (max-width: 1024px) {
+  .divFormReporte {
+    width: 80%;
+    padding-bottom: 252px;
+  }
+  .formReporte {
+    font-size: 1.1rem;
+  }
+  /* .formatoInput {
+    font-size: 1rem;
+  } */
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .divFormReporte {
+    width: 65%;
+  }
+  .formReporte {
+    font-size: 0.8rem;
+  }
+  /* .formatoInput {
+    font-size: 1rem;
+  } */
+}
+
+@media (min-width: 1201px) {
+  .divFormReporte {
+    width: 60%;
+  }
+  .formReporte {
+    font-size: 0.9rem;
+  }
+  /* .formatoInput {
+    font-size: 1rem;
+  } */
+}
+
+/* Para que el campo total no tenga flechas */
+.total::-webkit-outer-spin-button,
+.total::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.total[type="number"] {
+  -moz-appearance: textfield;
+}

@@ -1,0 +1,91 @@
+.divIngresarECA {
+  font-family: "Raleway", sans-serif;
+  width: 100%;
+}
+
+.headerIngresarECA {
+  background-color: #34c374;
+  color: #47525e;
+  display: block;
+  text-align: center;
+  padding: 1%;
+  margin-bottom: 2%;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.divContenedorECA {
+  padding-bottom: 2%;
+}
+
+.divInputECA {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.formulario-ingresar-ECA {
+  background-color: white;
+  margin: 0 auto;
+  width: 90%;
+  text-align: center;
+  padding: 10px;
+  font-family: "Raleway", sans-serif;
+}
+
+.labelInputECA {
+  padding-bottom: 10px;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+.formatoInputECA {
+  width: 50%;
+  background-color: #ffffff;
+  border: 1px solid #8492a6;
+  border-radius: 100px;
+}
+
+
+.botonECA {
+  font-size: 1.1rem;
+  border-radius: 50px;
+}
+
+
+@media (max-width: 580px) {
+  .formatoInputECA {
+    width: 100%;
+  }
+
+}
+
+@media (min-width: 581px) and (max-width: 768px) {
+  .formatoInputECA {
+    width: 90%;
+  }
+
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .formatoInputECA {
+    width: 100%;
+  }
+
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .formatoInputECA {
+    width: 80%;
+  }
+
+}
+
+@media (min-width: 1201px) {
+  .formatoInputECA {
+    width: 80%;
+  }
+
+}

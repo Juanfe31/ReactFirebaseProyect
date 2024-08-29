@@ -1,0 +1,113 @@
+.cuerpo {
+  position: relative;
+  min-height: 100vh;
+}
+
+
+.formulario {
+  background-color: white;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.062);
+  box-shadow: 0 0 40px rgba(8, 7, 16, 0.183);
+  margin-bottom: 10px;
+}
+
+.formulario img {
+  justify-content: center;
+  display: flex;
+}
+
+.formulario h3 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 42px;
+  text-align: center;
+}
+
+.labl {
+  display: block;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #5E5E5E;
+}
+
+.inpt {
+  width: 100%;
+  border-radius: 10px;
+  padding: 8px 40px 8px 14px;
+  font-weight: 400;
+  font-size: 1.0rem;
+  border-color: grey;
+}
+
+.btncio {
+  width: 100%;
+  background-color: #009975;
+  color: rgb(245, 245, 245);
+  font-size: 1.0rem;
+  font-weight: 600;
+  border-radius: 5px;
+}
+.btncio:hover {
+  background-color: #009975c8;
+  color: rgb(255, 255, 255);
+}
+
+.password-container, .username-container {
+  position: relative;
+}
+
+#eye-icon, #user-icon{
+  position: absolute;
+  top: 28%;
+  right: 6%;
+}
+
+#eye-icon {
+  cursor: pointer;
+}
+
+
+/* 320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+1201px and more —  Extra large screens, TV */
+
+/* areglar entre 336 - 480 */
+
+@media (max-width: 480px) {
+  .container-login {
+    padding-bottom: 400px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .container-login {
+    padding-bottom: 364px;
+    width: 90%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container-login {
+    padding-bottom: 252px;
+    width: 80%;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .container-login {
+    padding-bottom: 244px;
+    width: 40%;
+  }
+}
+
+@media (min-width: 1201px) {
+  .container-login {
+    padding-bottom: 226px;
+    width: 40%;
+  }
+}

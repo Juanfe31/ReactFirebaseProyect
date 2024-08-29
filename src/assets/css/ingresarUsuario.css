@@ -1,0 +1,299 @@
+/* .container-fluid {
+  background-color: #F4F3F2;
+} */
+
+.header {
+  background-color: #009975;
+  color: white;
+  display: block;
+  text-align: center;
+  padding: 1%;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.formulario-ingresar-usuario {
+  margin: 0 auto;
+  width: 90%;
+  text-align: center;
+  padding: 10px;
+  font-family: "Raleway", sans-serif;
+}
+
+.contenido-ingresar-usuario {
+  width: 100%;
+}
+
+.tipo-usuario {
+  margin: 10px 0 50px 0;
+}
+
+.radio-opcion {
+  margin: 10px 0 1px 0;
+}
+
+.error {
+  border: 2px solid red;
+}
+
+.padFirma {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 2px solid black;
+}
+
+@media (max-width: 320px) {
+  .tipo-id,
+  .num-id,
+  .campo-nombre,
+  .campo-email,
+  .campo-password {
+    margin: 4% 0;
+  }
+  .pad-registro-usuario {
+    padding: 0;
+  }
+  .espacio {
+    margin: 4%;
+  }
+  .firma {
+    position: relative;
+    width: 230px;
+    height: 150px;
+    display: flex;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .tipo-id,
+  .num-id,
+  .campo-nombre,
+  .campo-email,
+  .campo-password {
+    margin: 4% 0;
+  }
+  .pad-registro-usuario {
+    padding: 0;
+  }
+  .espacio {
+    margin: 4%;
+  }
+  .firma {
+    position: relative;
+    width: 310px;
+    height: 150px;
+    display: flex;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .tipo-id,
+  .num-id,
+  .campo-nombre {
+    margin: 4% 0;
+  }
+  .firma {
+    position: relative;
+    width: 700px;
+    height: 180px;
+    display: flex;
+  }
+}
+
+@media (min-width: 1025px) {
+  .tipo-id,
+  .num-id,
+  .campo-nombre,
+  .campo-email,
+  .campo-password {
+    margin: 2% 0;
+  }
+  .formulario-ingresar-usuario {
+    font-size: 1.1rem;
+  }
+  .espacio {
+    margin: 4% 0;
+  }
+  .firma {
+    position: relative;
+    width: 700px;
+    height: 180px;
+    display: flex;
+  }
+}
+
+@media (min-width: 1400px) {
+  .tipo-id,
+  .num-id,
+  .campo-nombre,
+  .campo-email,
+  .campo-password {
+    margin: 2% 0;
+  }
+  .formulario-ingresar-usuario {
+    font-size: 1.3rem;
+  }
+  .espacio {
+    margin: 4% 0;
+  }
+  .firma {
+    position: relative;
+    width: 900px;
+    height: 190px;
+    display: flex;
+  }
+}
+
+.enviar {
+  background-color: #34c374;
+  color: black;
+}
+
+.enviar:hover {
+  background-color: #34c3749d;
+  color: black;
+}
+
+.lbl-registro-usuario {
+  color: #47525e;
+  font-weight: 700;
+}
+
+.btn-ingresar-usuario {
+  /* border-radius: 5px 60px; */
+  border-radius: 10px;
+  padding: 5px 60px;
+  margin: 10px;
+}
+
+/* Jf, la idea es hacer un css general para los formularios no?  */
+.lbl-general {
+  color: #47525e;
+  font-weight: 700;
+}
+
+/* Estilo de la tabla */
+.table {
+  /* border-collapse: collapse; */
+  overflow-x: auto;
+}
+
+/* Estilo de las celdas de encabezado */
+.table th {
+  background-color: #007e5c;
+  color: #fff;
+  font-weight: bold;
+  padding: 8px;
+  text-align: center;
+  align-items: center;
+  border: none;
+}
+
+/* aumentar tamaño de los checkbox */
+.table input[type=checkbox]{
+  transform: scale(1.5);
+}
+
+/* footer */
+.footer {
+  background-color: #009975;
+  overflow: hidden;
+}
+
+.footer p,
+.footer h3 {
+  color: white;
+  text-align: center;
+}
+
+.container_valorunitario {
+  position: relative;
+}
+
+@media (max-width: 350px) {
+  .money {
+    position: absolute;
+    top: 20%;
+    left: 10px;
+  }
+}
+
+
+
+@media (min-width: 351px) and (max-width: 399px) {
+  .money {
+    position: absolute;
+    top: 20%;
+    left: 10px;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 575px) {
+  .money {
+    position: absolute;
+    top: 20%;
+    left: 10px;
+  }
+}
+
+
+@media (min-width: 576px) {
+  .money {
+    position: absolute;
+    top: 20%;
+    left: 10px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .money {
+    position: absolute;
+    top: 20%;
+    left: 20px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .money {
+    position: absolute;
+    top: 20%;
+    left: 10px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) {
+  .money {
+    position: absolute;
+    top: 20%;
+    left: 35%;
+  }
+} */
+
+@media (min-width: 1600px) {
+  .money {
+    position: absolute;
+    top: 20%;
+    left: 10px;
+  }
+}
+
+@media (min-width: 2000px) {
+  .money {
+    position: absolute;
+    top: 20%;
+    left: 35%;
+  }
+}
